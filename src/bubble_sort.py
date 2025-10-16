@@ -13,7 +13,7 @@ parts = numbers_input.split()
 numbers = []
 
 for part in parts:
-    number = int(part)  
+    number = int(part)
     numbers.append(number)
 
 sorted_numbers = bubble_sort(numbers)

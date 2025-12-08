@@ -1,4 +1,3 @@
-import pytest
 from src.test_number_2.frozen_matrix import FrozenMatrix
 
 

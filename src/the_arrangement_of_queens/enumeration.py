@@ -1,5 +1,9 @@
 import itertools
 
+# в каждой строке может быть только один ферзь
+# Представление: список длины N, где индекс — номер строки, а значение — номер столбца,
+# в котором расположен ферзь в этой строке.
+
 
 def count_queen_arrangements_enumeration(board_size):
     def is_safe(queen_positions):

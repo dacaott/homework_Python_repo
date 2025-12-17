@@ -32,5 +32,10 @@ def count_queen_arrangements_optimized(n):
     return solutions.get(n, "К сожалению, число слишком большое.")
 
 
-n = int(input("Введите размер доски N: "))
-print("Количество корректных расстановок:", count_queen_arrangements_optimized(n))
+def main():
+    n = int(input("Введите размер доски N: "))
+    print("Количество корректных расстановок:", count_queen_arrangements_optimized(n))
+
+
+if __name__ == "__main__":
+    main()

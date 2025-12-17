@@ -23,8 +23,13 @@ def count_queen_arrangements_recursive(board_size):
     return place_queen(0)
 
 
-board_size = int(input("Введите размер доски N: "))
-print(
-    "Количество корректных расстановок:",
-    count_queen_arrangements_recursive(board_size),
-)
+def main():
+    board_size = int(input("Введите размер доски N: "))
+    print(
+        "Количество корректных расстановок:",
+        count_queen_arrangements_recursive(board_size),
+    )
+
+
+if __name__ == "__main__":
+    main()

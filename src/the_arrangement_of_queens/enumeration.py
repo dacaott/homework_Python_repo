@@ -22,8 +22,13 @@ def count_queen_arrangements_enumeration(board_size):
     return total_solutions
 
 
-board_size = int(input("Введите размер доски N: "))
-print(
-    "Количество корректных расстановок:",
-    count_queen_arrangements_enumeration(board_size),
-)
+def main():
+    board_size = int(input("Введите размер доски N: "))
+    print(
+        "Количество корректных расстановок:",
+        count_queen_arrangements_enumeration(board_size),
+    )
+
+
+if __name__ == "__main__":
+    main()

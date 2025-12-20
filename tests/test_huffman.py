@@ -1,4 +1,3 @@
-import pytest
 from src.huffman.huffman_encoding import encode, decode
 from src.huffman.huffman_codec import encode_file, decode_file
 
